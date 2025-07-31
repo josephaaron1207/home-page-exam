@@ -1,0 +1,14 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example: a slightly different font */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+
+.card:hover {
+    transform: translateY(-3px); /* Slightly lift card on hover */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important; /* Stronger shadow on hover */
+}
